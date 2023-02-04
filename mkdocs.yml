@@ -1,0 +1,55 @@
+site_url: https://moritz-john.github.io/kmk-config-splaytoraid
+repo_url: https://github.com/moritz-john/kmk-config-splaytoraid
+
+site_name: KMK splaytoraid Firmware
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: deep orange
+  logo: assets/logo.svg
+  favicon: images/favicon.png
+  # Change default github repository icon, top right
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  # Images:
+  - attr_list
+  - md_in_html
+  # Code:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # Content tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+  # Admonitions:
+  - admonition
+  - pymdownx.details
+  # Tables:
+  - tables
+  # Keys:
+  - pymdownx.keys:
+      key_map: {
+                "rgbtog": "KC.RGB_TOG", 
+                "rgbhui": "KC.RGB_HUI",
+                "rgbhud": "KC.RGB_HUD",
+                "rgbsai": "KC.RGB_SAI",
+                "rgbsad": "KC.RGB_SAD",
+                "rgbvai": "KC.RGB_VAI",
+                "rgbvad": "KC.RGB_VAD",
+               }
+
+# Social cards
+plugins:
+  - social
+
+# Footer: social links
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/moritz-john/kmk-config-splaytoraid
