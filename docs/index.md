@@ -28,18 +28,18 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
 ### Install KMK
 
 1. Get [a copy](TO_DO) of KMK from the master branch 
-2. Unzip and copy the `kmk` folder and the `boot.py` file at the root of the USB drive (override the `boot.py` file used in step 2)
+2. Unzip and copy the `kmk` folder and the `boot.py` file to the root of the USB drive
 3. Delete `code.py` from the USB drive
 
-**TO_DO: Image**
+![Image title](images/installation_kmk.png){ width="500"}
 
-### Install splaytoraid firmware
+### Install the splaytoraid firmware
 
-1. Download the `kb.py`, `main.py` and `lib` from [the repository](TO_DO) and copy them onto your USB drive  
-You can also find those files in `splaytoraid_kmk_firmware.zip` via [GitHub releases](TO_DO)
+1. Download the `kb.py`, `main.py` and `lib` from the repository and copy them onto your USB drive  
+You can find those files in `splaytoraid_kmk_firmware.zip` via [GitHub releases](TO_DO)
 2. Reboot
 
-**TO_DO: Image**
+![Image title](images/installation_main_kb_lib.png){ width="800"}
 ***
 ## Microcontroller Support
 [`kb.py`](TO_DO) is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `kb.py` to [any supported microcontroller:](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro)
