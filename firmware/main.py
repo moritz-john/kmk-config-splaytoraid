@@ -7,7 +7,7 @@ from kmk.extensions.media_keys import MediaKeys
 # --8<-- [start:config]
 # ↓ EDIT CONFIG HERE ↓
 splaytoraid_keys = 40       # Options: 36, 40
-splaytoraid_rgb = False     # Options: True
+splaytoraid_rgb = False     # Options: False, True
 # ↑ EDIT CONFIG HERE ↑
 # --8<-- [end:config]
 # fmt: on
