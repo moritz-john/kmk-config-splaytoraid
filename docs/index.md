@@ -1,6 +1,6 @@
 ---
 title: "Documentation"
-description: Documentation for the KMK splaytoraid Firmware
+description: Documentation for the KMK splaytoraid firmware
 hide:
 # Hide navigation bar on left side
   - navigation
@@ -9,7 +9,7 @@ hide:
 # Documentation
 
 <figure markdown>
-  ![Splaytoraid_KMK_Logo](./images/splaytoraid_kmk.svg){ width="440" }
+  ![Splaytoraid_KMK_Logo](./images/splaytoraid_kmk.svg){ width="460" }
   <figcaption></figcaption>
 </figure>
 

@@ -22,6 +22,6 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "splaytoraid_kmk_firmware.zip"
-          name: "KLOR KMK Firmware"
+          name: "Splaytoraid KMK Firmware"
           tag: "${{ github.event.inputs.version }}"
           token: ${{ secrets.GITHUB_TOKEN }}
