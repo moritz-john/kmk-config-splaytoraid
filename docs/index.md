@@ -96,15 +96,15 @@ Read more about the possible configuration options [HERE](https://github.com/KMK
 ### Control RGB via keycodes
 You **need** to add some [keycodes](https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/rgb.md#keycodes) to your keymap in order to control your RGB lighting e.g.:
 
-| Keycode    | Description              |
-| :--------- | :------------------      |
-| ++rgbtog++ | Toggles RGB on or off    |
-| ++rgbhui++ | Increase Hue             |
-| ++rgbhud++ | Decrease Hue             |
-| ++rgbsai++ | Increase Saturation      |
-| ++rgbsad++ | Decrease Saturation      |
-| ++rgbvai++ | Increase Value           |
-| ++rgbvad++ | Decrease Value           |
+| Keycode    | Description           |
+| :--------- | :-------------------- |
+| ++rgbtog++ | Toggles RGB on or off |
+| ++rgbhui++ | Increase Hue          |
+| ++rgbhud++ | Decrease Hue          |
+| ++rgbsai++ | Increase Saturation   |
+| ++rgbsad++ | Decrease Saturation   |
+| ++rgbvai++ | Increase Value        |
+| ++rgbvad++ | Decrease Value        |
 
 ***
 ## Hide Device Storage (optional)
