@@ -9,7 +9,7 @@ theme:
     primary: teal
     accent: deep orange
   logo: assets/logo.svg
-  favicon: assets/favicon.png
+  favicon: assets/favicon.svg
   # Change default github repository icon, top right
   icon:
     repo: fontawesome/brands/github
