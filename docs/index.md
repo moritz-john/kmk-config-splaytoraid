@@ -57,7 +57,7 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
 
 ## Microcontroller Support
 
-[`kb.py`](TO_DO) is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `kb.py` to [any supported microcontroller](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro) e.g.:
+[`kb.py`](https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/kb.py) is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `kb.py` to [any supported microcontroller](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro) e.g.:
 
 ```python title='Default: SparkFun Pro Micro RP2040'
 from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
@@ -89,7 +89,7 @@ The `'lib'` folder should contain the file `'neopixel.mpy'`.
 
 ### Activate RGB
 
-You have to change the variable `splaytoraid_rgb` from `False` to `True` in your [`main.py`](TO_DO) file and set `splaytoraid_keys` to the amount of keys you are using:
+You have to change the variable `splaytoraid_rgb` from `False` to `True` in your [`main.py`](https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/main.py) file and set `splaytoraid_keys` to the amount of keys you are using:
 
 ```py title="main.py"
 --8<-- 'firmware/main.py:config'
@@ -97,7 +97,7 @@ You have to change the variable `splaytoraid_rgb` from `False` to `True` in your
 
 ### Customize RGB
 
-_You can find this code in your [`kb.py`](TO_DO) file:_
+_You can find this code in your [`kb.py`](https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/kb.py) file:_
 
 ```py title="kb.py"
 --8<-- 'firmware/kb.py:rgb'
