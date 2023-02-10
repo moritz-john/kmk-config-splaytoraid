@@ -7,17 +7,21 @@
 </div>
 
 # WORK IN PROGRESS
-# WORK IN PROGRESS
-### KMK firmware for splaytoraid keyboard
-*The Splaytoraid is a 40% ergonomic keyboard with a stacked acrylic case and RGB underglow.*
 
-Hardware Availability: [keeb.supply](https://keeb.supply/products/splaytoraid-messenger-edition)   
+# WORK IN PROGRESS
+
+### KMK firmware for splaytoraid keyboard
+
+_The Splaytoraid is a 40% ergonomic keyboard with a stacked acrylic case and RGB underglow._
+
+Hardware Availability: [keeb.supply](https://keeb.supply/products/splaytoraid-messenger-edition)  
 Keyboard Designer: [freya](https://linktr.ee/freya_irl)
 
 # [Documentation & Installation instructions](https://moritz-john.github.io/kmk-config-splaytoraid/)
+
 ### Modules/extensions implemented
 
 - [Layers](https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/layers.md)
 - [Media Keys](https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/media_keys.md)
-- [**RGB/Underglow/NeoPixel**](http://kmkfw.io/docs/rgb) *disabled by default*
+- [**RGB/Underglow/NeoPixel**](http://kmkfw.io/docs/rgb) _disabled by default_
 - [**Encoder**](https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/scanners.md#rotary-encoder-scanners)
