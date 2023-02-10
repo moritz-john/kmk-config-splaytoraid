@@ -135,7 +135,10 @@ I would recommend following these steps **after** you finished setting up your s
     **After replacing the `boot.py` file you need to hold the green key when connecting the keyboard to your computer or rebooting it via reset button in order to access the USB storage.**
 <!-- prettier-ignore-end -->
 
-![Image title](TO_DO)
+<figure markdown>
+  ![Image title](images/hold_key_splaytoraid.svg){ width="1000" }
+  <figcaption></figcaption>
+</figure>
 
 ### Microcontroller support
 
