@@ -1,8 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/splaytoraid_kmk.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/splaytoraid_kmk_dark.svg">
-  <img alt="splaytoraid kmk logo" width="500" src="docs/images/splaytoraid_kmk.svg">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/splaytoraid_kmk.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/images/splaytoraid_kmk_dark.svg">
+    <img alt="splaytoraid kmk logo" width="500" src="docs/images/splaytoraid_kmk.svg">
+  </picture>
+</div>
 
 # WORK IN PROGRESS
 # WORK IN PROGRESS
