@@ -3,11 +3,13 @@ repo_url: https://github.com/moritz-john/kmk-config-splaytoraid
 
 site_name: KMK splaytoraid firmware
 theme:
+  # custom_dir: docs/overrides
   name: material
   palette:
     scheme: slate
     primary: teal
     accent: deep orange
+
   logo: assets/logo.svg
   favicon: assets/favicon.png
   # Change default github repository icon, top right
@@ -51,5 +53,9 @@ plugins:
 # Footer: social links
 extra:
   social:
+    - icon: fontawesome/solid/basket-shopping
+      link: https://keeb.supply/products/splaytoraid-messenger-edition
+      name: Buy yourself a splaytoraid
     - icon: fontawesome/brands/github
-      link: https://github.com/moritz-john/kmk-config-splaytoraid
+      link: https://github.com/moritz-john/
+      name: moritz-john Github
