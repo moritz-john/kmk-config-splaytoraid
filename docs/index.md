@@ -13,10 +13,11 @@ hide:
   <figcaption></figcaption>
 </figure>
 
+A comprehensive guide of my KMK firmware[^1] for the  splayortoraid keyboard (Messenger Edition)[^2].
 ## Installation
 
 <!-- prettier-ignore-start -->
-??? tip "TL;DR:"
+??? tip "tl;dr"
     [Install CircuitPython](#install-circuitpython)  
     [Install KMK](#install-kmk)  
     [Copy `kb.py`, `main.py` & `lib` to your splaytoraid](#install-splaytoraid-firmware)
@@ -42,9 +43,9 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
 
 ### Install splaytoraid firmware
 
-1. Download the `kb.py`, `main.py` and `lib` from the repository and copy them onto your USB drive  
+1. Download the `kb.py`, `main.py` and `lib` from the GitHub repository and copy them onto your USB drive  
    You can find those files in `splaytoraid_kmk_firmware.zip` via [GitHub releases](TO_DO)
-2. Reboot
+2. Reboot the microcontroller
 
 <figure markdown>
   ![Image title](images/installation_main_kb_lib.png){ width="800" }
@@ -78,14 +79,15 @@ from kmk.quickpin.pro_micro.kb2040 import pinout as pins
 ## RGB Setup
 
 <!-- prettier-ignore-start -->
-??? tip "TL;DR:"
-    Add library to your keyboard drive, set `:::py klor_rgb = True` and `:::py splaytoraid_keys = 40` or `:::py 36` keys, customize your RGB code and add RGB keycodes to your keymap
+<!-- ??? tip "TL;DR:"
+    - Add library to your keyboard drive, set `:::py splaytoraid_rgb = True` and `:::py splaytoraid_keys = 40` or `:::py 36` keys  
+    - Customize your RGB values and add RGB keycodes to your keymap -->
 <!-- prettier-ignore-end -->
 
 ### Add RGB library
 
 In order to use RGB make sure you copied the `'lib'` folder onto your splaytoraid in the [installation step](#install-splaytoraid-firmware).  
-The `'lib'` folder should contain the file `'neopixel.mpy'`.
+The `'lib'` folder should contain the file `neopixel.mpy`.
 
 ### Activate RGB
 
@@ -132,7 +134,7 @@ I would recommend following these steps **after** you finished setting up your s
 
 <!-- prettier-ignore-start -->
 !!! warning
-    **After replacing the `boot.py` file you need to hold the green key when connecting the keyboard to your computer or rebooting it via reset button in order to access the USB storage.**
+    **After replacing `boot.py` you need to hold the green key when connecting the keyboard to your computer in order to access its USB storage.**
 <!-- prettier-ignore-end -->
 
 <figure markdown>
@@ -147,3 +149,6 @@ I would recommend following these steps **after** you finished setting up your s
 ```py
 from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
 ```
+
+[^1]: [KMK](https://github.com/KMKfw/kmk_firmware) is a feature-rich and beginner-friendly firmware for computer keyboards written and configured in [CircuitPython](https://circuitpython.org/)
+[^2]: A keyboard designed by [freya](https://linktr.ee/freya_irl) and exclusively available through [keeb.supply](https://keeb.supply/products/splaytoraid-messenger-edition)

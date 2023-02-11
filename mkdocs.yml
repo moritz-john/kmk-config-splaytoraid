@@ -34,6 +34,8 @@ markdown_extensions:
   - pymdownx.details
   # Tables:
   - tables
+  # Footnoes:
+  - footnotes
   # Keys:
   - pymdownx.keys:
       key_map: {
@@ -59,3 +61,5 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/moritz-john/
       name: moritz-john Github
+
+copyright: Created and maintained by Moritz John
