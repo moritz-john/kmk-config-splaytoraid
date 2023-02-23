@@ -44,7 +44,7 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
 ### Install splaytoraid firmware
 
 1. Download the `kb.py`, `main.py` and `lib` from the GitHub repository and copy them onto your USB drive  
-   You can find those files in `splaytoraid_kmk_firmware.zip` via [GitHub releases](TO_DO)
+   You can find those files in `splaytoraid_kmk_firmware.zip` via [GitHub releases](https://github.com/moritz-john/kmk-config-splaytoraid/releases)
 2. Reboot the microcontroller
 
 <figure markdown>
