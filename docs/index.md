@@ -129,7 +129,7 @@ You **need** to add some [keycodes](https://github.com/KMKfw/kmk_firmware/blob/m
 Here is how to hide your microcontroller from showing up as a USB storage by default.  
 I would recommend following these steps **after** you finished setting up your splaytoraid & keymap:
 
-- Copy this specifig [`boot.py`](TO_DO) onto your `'CIRCUITPY'` USB storage and replace the existing file.
+- Copy this specifig [`boot.py`](https://github.com/moritz-john/kmk-config-splaytoraid/tree/master/firmware/utilities/hide_device_storage) onto your `'CIRCUITPY'` USB storage and replace the existing file.
 - You can still access the device USB storage by holding a certain key on startup
 
 <!-- prettier-ignore-start -->
