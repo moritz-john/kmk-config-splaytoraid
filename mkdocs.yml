@@ -3,7 +3,7 @@ repo_url: https://github.com/moritz-john/kmk-config-splaytoraid
 
 site_name: KMK splaytoraid firmware
 theme:
-  # custom_dir: docs/overrides
+  custom_dir: docs/overrides
   name: material
   palette:
     scheme: slate
