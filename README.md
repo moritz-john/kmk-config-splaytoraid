@@ -8,6 +8,8 @@
   </picture>
 </div>
 
+# [Documentation & Installation instructions](https://moritz-john.github.io/kmk-config-splaytoraid/)
+
 ### KMK firmware for splaytoraid keyboard
 
 _The Splaytoraid is a 40% ergonomic keyboard with a stacked acrylic case and RGB underglow._
@@ -15,7 +17,7 @@ _The Splaytoraid is a 40% ergonomic keyboard with a stacked acrylic case and RGB
 Hardware Availability: [keeb.supply](https://keeb.supply/products/splaytoraid-messenger-edition)  
 Keyboard Designer: [freya](https://linktr.ee/freya_irl)
 
-# [Documentation & Installation instructions](https://moritz-john.github.io/kmk-config-splaytoraid/)
+
 
 ### Modules/extensions implemented
 
