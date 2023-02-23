@@ -1,3 +1,7 @@
+[![Docs Status](https://img.shields.io/badge/docs-ready-green.svg)](https://moritz-john.github.io/kmk-config-splaytoraid/)
+
+https://img.shields.io/maintenance/yes/2023
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/images/splaytoraid_kmk.svg">

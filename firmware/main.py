@@ -2,23 +2,26 @@ from kb import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
+from kmk.modules.encoder import EncoderHandler
 
 # fmt: off
 # --8<-- [start:config]
 # ↓ EDIT CONFIG HERE ↓
 splaytoraid_keys = 40       # Options: 36, 40
-splaytoraid_rgb = False     # Options: False, True
+splaytoraid_rgb = True     # Options: False, True
 # ↑ EDIT CONFIG HERE ↑
 # --8<-- [end:config]
 # fmt: on
 
 keyboard = KMKKeyboard(splaytoraid_keys, splaytoraid_rgb)
 
+
 keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
 
+
 # Enable debugging: http://kmkfw.io/docs/debugging/
-# keyboard.debug_enabled = True
+keyboard.debug_enabled = True
 
 
 # Key aliases
@@ -56,6 +59,16 @@ keyboard.keymap = [
 
 ]
 # fmt: on
+
+encoder_handler = EncoderHandler()
+encoder_handler.pins = ((keyboard.encoder_a, keyboard.encoder_b, None, False),)
+encoder_handler.map = (
+    ((KC.VOLU, KC.VOLD),),  # Encoder function on Base layer
+    ((KC.UP, KC.DOWN),),  # Encoder function on LOWER layer
+)
+
+keyboard.modules.append(encoder_handler)
+
 
 if __name__ == "__main__":
     keyboard.go()
