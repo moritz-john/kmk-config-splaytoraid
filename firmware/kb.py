@@ -60,7 +60,6 @@ class KMKKeyboard(_KMKKeyboard):
     # flake8: noqa
     # fmt: off
     coord_mapping = [
-
         49,  7,  8,  2,  1,  9,     37,  4,  3, 11, 12, 54, 
         50, 21, 22, 16, 15, 10,     38, 18, 17, 25, 26, 53,
             35, 36, 30, 29, 23,     51, 32, 31, 39, 40, 
