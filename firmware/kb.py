@@ -1,30 +1,9 @@
 from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
 from kmk.kmk_keyboard import KMKKeyboard as _KMKKeyboard
 from kmk.scanners import DiodeOrientation
-from kmk.scanners.keypad import MatrixScanner
-from kmk.scanners.encoder import RotaryioEncoder
-
 
 class KMKKeyboard(_KMKKeyboard):
     def __init__(self, splaytoraid_keys=40, splaytoraid_rgb=False):
-        # create and register the scanner(s)
-        self.matrix = [
-            MatrixScanner(
-                # required arguments:
-                column_pins=self.col_pins,
-                row_pins=self.row_pins,
-                # optional arguments with defaults:
-                columns_to_anodes=self.diode_orientation,
-                interval=0.02,  # Debounce time in floating point seconds
-                max_events=64,
-            ),
-            # RotaryioEncoder(
-            #     pin_a=self.encoder_a,
-            #     pin_b=self.encoder_b,
-            #     # optional
-            #     divisor=2,
-            # ),
-        ]
 
         self.setup_rgb(splaytoraid_keys, splaytoraid_rgb)
 
@@ -50,10 +29,6 @@ class KMKKeyboard(_KMKKeyboard):
     diode_orientation = DiodeOrientation.COL2ROW
     encoder_a = pins[12]
     encoder_b = pins[11]
-    # SCL = pins[5]
-    # SDA = pins[4]
-    # rx = pins[6]
-    # tx = pins[1]
     rgb_pixel_pin = pins[5]
 
     # RGB code:
@@ -74,7 +49,6 @@ class KMKKeyboard(_KMKKeyboard):
 
     def setup_rgb(self, splaytoraid_keys, splaytoraid_rgb):
         if splaytoraid_rgb == True:
-            # self.basic_rgb(int(splaytoraid_keys))
 
             if splaytoraid_keys == 36:
                 self.basic_rgb(12)
@@ -85,7 +59,6 @@ class KMKKeyboard(_KMKKeyboard):
     # NOQA
     # flake8: noqa
     # fmt: off
-    # TODO: Get coord_mapping
     coord_mapping = [
 
         49,  7,  8,  2,  1,  9,     37,  4,  3, 11, 12, 54, 
