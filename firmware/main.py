@@ -8,7 +8,7 @@ from kmk.modules.encoder import EncoderHandler
 # --8<-- [start:config]
 # ↓ EDIT CONFIG HERE ↓
 splaytoraid_keys = 40       # Options: 36, 40
-splaytoraid_rgb = True      # Options: False, True
+splaytoraid_rgb = False     # Options: False, True
 # ↑ EDIT CONFIG HERE ↑
 # --8<-- [end:config]
 # fmt: on
@@ -51,11 +51,11 @@ keyboard.keymap = [
 ]
 # fmt: on
 
-# Encoder Keymap
+# Encoder
 encoder_handler.pins = ((keyboard.encoder_a, keyboard.encoder_b, None,),)
 encoder_handler.map = (
     ((KC.VOLU, KC.VOLD),),  # Encoder function on BASE layer
-    ((KC.MNXT, KC.MPRV),),    # Encoder function on RAISE layer
+    ((KC.MNXT, KC.MPRV),),  # Encoder function on RAISE layer
 )
 keyboard.modules.append(encoder_handler)
 
