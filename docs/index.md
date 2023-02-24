@@ -105,7 +105,7 @@ _You can find this code in your [`kb.py`](https://github.com/moritz-john/kmk-con
 --8<-- 'firmware/kb.py:rgb'
 ```
 
-Consider changing `hue_default`, `sat_default` or `val_default`. Use a value in the range `0-255`.  
+Consider changing `hue_default`, `sat_default` or `val_default`. Use values in the range of `0-255`.  
 Read more about the possible configuration options [HERE](https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/rgb.md#configuration).
 
 ### Control RGB via keycodes
