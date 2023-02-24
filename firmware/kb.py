@@ -40,8 +40,9 @@ class KMKKeyboard(_KMKKeyboard):
         rgb = RGB(
             pixel_pin=self.rgb_pixel_pin,
             num_pixels=pixels,
-            val_limit=100,
-            hue_default=30,
+            rgb_order=(1, 0, 2),
+            val_limit=40, # Maximum brightness level. Only change if you know what you are doing!
+            hue_default=0,
             sat_default=100,
             val_default=20,
         )
