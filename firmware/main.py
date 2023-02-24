@@ -18,7 +18,7 @@ keyboard = KMKKeyboard(splaytoraid_keys, splaytoraid_rgb)
 keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
 
-# Enable debugging: http://kmkfw.io/docs/debugging/
+# Enable debugging: https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/debugging.md
 # keyboard.debug_enabled = True
 
 
@@ -49,6 +49,7 @@ keyboard.keymap = [
 
 ]
 # fmt: on
+
 
 # Encoder
 encoder_handler = EncoderHandler()
