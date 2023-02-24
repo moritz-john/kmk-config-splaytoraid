@@ -14,8 +14,8 @@
 
 _The Splaytoraid is a 40% ergonomic keyboard with a stacked acrylic case and RGB underglow._
 
-Hardware Availability: [keeb.supply](https://keeb.supply/products/splaytoraid-messenger-edition)  
-Keyboard Designer: [freya](https://linktr.ee/freya_irl)
+Hardware Availability: [**keeb.supply**](https://keeb.supply/products/splaytoraid-messenger-edition)  
+Keyboard Designer: [**freya**](https://linktr.ee/freya_irl)
 
 
 

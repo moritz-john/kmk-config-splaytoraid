@@ -1,15 +1,14 @@
 site_url: https://moritz-john.github.io/kmk-config-splaytoraid
 repo_url: https://github.com/moritz-john/kmk-config-splaytoraid
 
-site_name: KMK splaytoraid firmware
+site_name: Splaytoraid KMK Documentation
 theme:
   custom_dir: docs/overrides
   name: material
   palette:
     scheme: slate
-    primary: teal
-    accent: deep orange
-
+    primary: black
+    accent: green
   logo: assets/logo.svg
   favicon: assets/favicon.png
   # Change default github repository icon, top right

@@ -39,8 +39,6 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
   <figcaption>Content of USB Drive after installing KMK</figcaption>
 </figure>
 
-<!-- ![Image title](images/installation_kmk.png){ width="500"} -->
-
 ### Install splaytoraid firmware
 
 1. Download the `kb.py`, `main.py` and `lib` from the GitHub repository and copy them onto your USB drive  
@@ -51,8 +49,6 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
   ![Image title](images/installation_main_kb_lib.png){ width="800" }
   <figcaption>Content of USB Drive after adding splaytoraid specific firmware files</figcaption>
 </figure>
-
-<!-- ![Image title](images/installation_main_kb_lib.png){ width="800"} -->
 
 ---
 
@@ -77,12 +73,6 @@ from kmk.quickpin.pro_micro.kb2040 import pinout as pins
 ---
 
 ## RGB Setup
-
-<!-- prettier-ignore-start -->
-<!-- ??? tip "TL;DR:"
-    - Add library to your keyboard drive, set `:::py splaytoraid_rgb = True` and `:::py splaytoraid_keys = 40` or `:::py 36` keys  
-    - Customize your RGB values and add RGB keycodes to your keymap -->
-<!-- prettier-ignore-end -->
 
 ### Add RGB library
 
