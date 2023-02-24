@@ -14,13 +14,12 @@ splaytoraid_rgb = False     # Options: False, True
 # fmt: on
 
 keyboard = KMKKeyboard(splaytoraid_keys, splaytoraid_rgb)
-encoder_handler = EncoderHandler()
 
 keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
 
 # Enable debugging: http://kmkfw.io/docs/debugging/
-keyboard.debug_enabled = True
+# keyboard.debug_enabled = True
 
 
 # Key aliases
@@ -52,7 +51,9 @@ keyboard.keymap = [
 # fmt: on
 
 # Encoder
+encoder_handler = EncoderHandler()
 encoder_handler.pins = ((keyboard.encoder_a, keyboard.encoder_b, None,),)
+# Encoder keymap
 encoder_handler.map = (
     ((KC.VOLU, KC.VOLD),),  # Encoder function on BASE layer
     ((KC.MNXT, KC.MPRV),),  # Encoder function on RAISE layer
