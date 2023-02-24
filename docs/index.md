@@ -1,5 +1,5 @@
 ---
-title: "Documentation"
+title: "Splaytoraid Documentation"
 description: Documentation for the KMK splaytoraid firmware
 hide:
   # Hide navigation bar on left side
