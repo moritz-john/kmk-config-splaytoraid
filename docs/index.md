@@ -134,7 +134,7 @@ I would recommend following these steps **after** you finished setting up your s
 
 ### Microcontroller support
 
-`boot.py` is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `boot.py` to [any supported microcontroller:](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro)
+[`boot.py`](https://github.com/moritz-john/kmk-config-splaytoraid/tree/master/firmware/utilities/hide_device_storage) is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `boot.py` to [any supported microcontroller:](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro)
 
 ```py
 from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
