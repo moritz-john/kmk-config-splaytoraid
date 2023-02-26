@@ -11,6 +11,8 @@ theme:
     accent: green
   logo: assets/logo.svg
   favicon: assets/favicon.png
+  features:
+    - header.autohide
   # Change default github repository icon, top right
   icon:
     repo: fontawesome/brands/github
