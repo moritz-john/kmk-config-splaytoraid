@@ -10,7 +10,7 @@
 
 # [Documentation & Installation instructions](https://moritz-john.github.io/kmk-config-splaytoraid/)
 
-### KMK firmware for splaytoraid keyboard
+## KMK firmware for splaytoraid keyboard
 
 _The Splaytoraid is a 40% ergonomic keyboard with a stacked acrylic case and RGB underglow._
 

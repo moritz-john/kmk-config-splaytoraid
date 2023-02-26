@@ -13,7 +13,7 @@ hide:
   <figcaption></figcaption>
 </figure>
 
-A comprehensive guide of my KMK firmware[^1] for the  splayortoraid keyboard (Messenger Edition)[^2].
+A comprehensive guide of my KMK firmware[^1] for the splayortoraid keyboard (Messenger Edition)[^2].
 ## Installation
 
 <!-- prettier-ignore-start -->
