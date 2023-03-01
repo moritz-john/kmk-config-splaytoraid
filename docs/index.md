@@ -54,14 +54,14 @@ KMK is a keyboard focused layer that sits on top of CircuitPython.
 
 ## Microcontroller Support
 
-[`kb.py`](https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/kb.py) is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `kb.py` to [any supported microcontroller](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro) e.g.:
+[`kb.py`](https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/kb.py) is designed to work with the [**0xCB Helios**](https://keeb.supply/products/0xcb-helios) but you can update this line in `kb.py` to [any supported microcontroller](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro) e.g.:
 
-```python title='Default: SparkFun Pro Micro RP2040'
-from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
+```python title='Default: 0xCB Helios'
+from kmk.quickpin.pro_micro.helios import pinout as pins
 ```
 
-```python title='Alternative: 0xCB Helios'
-from kmk.quickpin.pro_micro.helios import pinout as pins
+```python title='Alternative: SparkFun Pro Micro RP2040'
+from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
 ```
 
 ```python title='Alternative: Adafruit KB2040'
@@ -134,10 +134,10 @@ I would recommend following these steps **after** you finished setting up your s
 
 ### Microcontroller support
 
-[`boot.py`](https://github.com/moritz-john/kmk-config-splaytoraid/tree/master/firmware/utilities/hide_device_storage) is designed to work with the **SparkFun Pro Micro RP2040** but you can update this line in `boot.py` to [any supported microcontroller:](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro)
+[`boot.py`](https://github.com/moritz-john/kmk-config-splaytoraid/tree/master/firmware/utilities/hide_device_storage) is designed to work with the **0xCB Helios** but you can update this line in `boot.py` to [any supported microcontroller:](https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro)
 
 ```py
-from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
+from kmk.quickpin.pro_micro.helios import pinout as pins
 ```
 
 [^1]: [KMK](https://github.com/KMKfw/kmk_firmware) is a feature-rich and beginner-friendly firmware for computer keyboards written and configured in [CircuitPython](https://circuitpython.org/)
