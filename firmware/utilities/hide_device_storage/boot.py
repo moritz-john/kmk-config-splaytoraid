@@ -1,5 +1,4 @@
-import supervisor
-import board
+# Code thanks to https://github.com/JanLunge
 import digitalio
 import storage
 import usb_cdc
