@@ -1,4 +1,4 @@
-from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
+from kmk.quickpin.pro_micro.helios import pinout as pins
 from kmk.kmk_keyboard import KMKKeyboard as _KMKKeyboard
 from kmk.scanners import DiodeOrientation
 

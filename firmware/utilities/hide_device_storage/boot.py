@@ -4,7 +4,7 @@ import storage
 import usb_cdc
 import usb_hid
 
-from kmk.quickpin.pro_micro.sparkfun_promicro_rp2040 import pinout as pins
+from kmk.quickpin.pro_micro.helios import pinout as pins
 
 # If this key is held during boot, don't run the code which hides the storage and disables serial
 # To use another key just count its row and column and use those pins
