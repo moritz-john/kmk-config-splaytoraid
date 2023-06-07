@@ -1,0 +1,724 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the KMK splaytoraid firmware">
+      
+      
+      
+        <link rel="canonical" href="https://moritz-john.github.io/kmk-config-splaytoraid/">
+      
+      
+      
+      <link rel="icon" href="assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
+    
+    
+      
+        <title>Splaytoraid KMK Documentation - Splaytoraid KMK Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Splaytoraid KMK Documentation" >
+      
+        <meta  property="og:description"  content="Documentation for the KMK splaytoraid firmware" >
+      
+        <meta  property="og:image"  content="https://moritz-john.github.io/kmk-config-splaytoraid/assets/images/social/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://moritz-john.github.io/kmk-config-splaytoraid/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Splaytoraid KMK Documentation" >
+      
+        <meta  name="twitter:description"  content="Documentation for the KMK splaytoraid firmware" >
+      
+        <meta  name="twitter:image"  content="https://moritz-john.github.io/kmk-config-splaytoraid/assets/images/social/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="green">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Splaytoraid KMK Documentation" class="md-header__button md-logo" aria-label="Splaytoraid KMK Documentation" data-md-component="logo">
+      
+  <img src="assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Splaytoraid KMK Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Splaytoraid KMK Documentation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/moritz-john/kmk-config-splaytoraid" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Splaytoraid KMK Documentation" class="md-nav__button md-logo" aria-label="Splaytoraid KMK Documentation" data-md-component="logo">
+      
+  <img src="assets/logo.svg" alt="logo">
+
+    </a>
+    Splaytoraid KMK Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/moritz-john/kmk-config-splaytoraid" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Splaytoraid KMK Documentation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Splaytoraid KMK Documentation
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-circuitpython" class="md-nav__link">
+    Install CircuitPython
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-kmk" class="md-nav__link">
+    Install KMK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-splaytoraid-firmware" class="md-nav__link">
+    Install splaytoraid firmware
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microcontroller-support" class="md-nav__link">
+    Microcontroller Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rgb-setup" class="md-nav__link">
+    RGB Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="RGB Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-rgb-library" class="md-nav__link">
+    Add RGB library
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activate-rgb" class="md-nav__link">
+    Activate RGB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customize-rgb" class="md-nav__link">
+    Customize RGB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-rgb-via-keycodes" class="md-nav__link">
+    Control RGB via keycodes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hide-device-storage-optional" class="md-nav__link">
+    Hide Device Storage (optional)
+  </a>
+  
+    <nav class="md-nav" aria-label="Hide Device Storage (optional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#microcontroller-support_1" class="md-nav__link">
+    Microcontroller support
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-circuitpython" class="md-nav__link">
+    Install CircuitPython
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-kmk" class="md-nav__link">
+    Install KMK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-splaytoraid-firmware" class="md-nav__link">
+    Install splaytoraid firmware
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microcontroller-support" class="md-nav__link">
+    Microcontroller Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rgb-setup" class="md-nav__link">
+    RGB Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="RGB Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-rgb-library" class="md-nav__link">
+    Add RGB library
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activate-rgb" class="md-nav__link">
+    Activate RGB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customize-rgb" class="md-nav__link">
+    Customize RGB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-rgb-via-keycodes" class="md-nav__link">
+    Control RGB via keycodes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hide-device-storage-optional" class="md-nav__link">
+    Hide Device Storage (optional)
+  </a>
+  
+    <nav class="md-nav" aria-label="Hide Device Storage (optional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#microcontroller-support_1" class="md-nav__link">
+    Microcontroller support
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="documentation">Documentation</h1>
+<figure>
+<p><img alt="Splaytoraid_KMK_Logo" src="images/splaytoraid_kmk.svg" width="460" />
+  </p>
+<figcaption></figcaption>
+</figure>
+<p>A comprehensive guide of my KMK firmware<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> for the splayortoraid keyboard (Messenger Edition)<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
+<h2 id="installation">Installation</h2>
+<!-- prettier-ignore-start -->
+<details class="tip">
+<summary>tl;dr</summary>
+<p><a href="#install-circuitpython">Install CircuitPython</a><br />
+<a href="#install-kmk">Install KMK</a><br />
+<a href="#install-splaytoraid-firmware">Copy <code>kb.py</code>, <code>main.py</code> &amp; <code>lib</code> to your splaytoraid</a></p>
+</details>
+<!-- prettier-ignore-end -->
+
+<h3 id="install-circuitpython">Install CircuitPython</h3>
+<p>KMK is a keyboard focused layer that sits on top of CircuitPython.<br />
+<a href="https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython"><strong>Follow these steps</strong></a> and then come back here.</p>
+<h3 id="install-kmk">Install KMK</h3>
+<ol>
+<li>Get <a href="https://github.com/KMKfw/kmk_firmware/archive/refs/heads/master.zip">a copy of KMK</a> from the master branch</li>
+<li>Unzip and copy the <code>kmk</code> folder and the <code>boot.py</code> file to the root of the USB drive</li>
+<li>Delete <code>code.py</code> from the USB drive</li>
+</ol>
+<figure>
+<p><img alt="Image title" src="images/installation_kmk.png" width="500" />
+  </p>
+<figcaption>Content of USB Drive after installing KMK</figcaption>
+</figure>
+<h3 id="install-splaytoraid-firmware">Install splaytoraid firmware</h3>
+<ol>
+<li>Download the <code>kb.py</code>, <code>main.py</code> and <code>lib</code> from the GitHub repository and copy them onto your USB drive<br />
+   You can find those files in <code>splaytoraid_kmk_firmware.zip</code> via <a href="https://github.com/moritz-john/kmk-config-splaytoraid/releases">GitHub releases</a></li>
+<li>Reboot the microcontroller</li>
+</ol>
+<figure>
+<p><img alt="Image title" src="images/installation_main_kb_lib.png" width="800" />
+  </p>
+<figcaption>Content of USB Drive after adding splaytoraid specific firmware files</figcaption>
+</figure>
+<hr />
+<h2 id="microcontroller-support">Microcontroller Support</h2>
+<p><a href="https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/kb.py"><code>kb.py</code></a> is designed to work with the <a href="https://keeb.supply/products/0xcb-helios"><strong>0xCB Helios</strong></a> but you can update this line in <code>kb.py</code> to <a href="https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro">any supported microcontroller</a> e.g.:</p>
+<div class="highlight"><span class="filename">Default: 0xCB Helios</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">kmk.quickpin.pro_micro.helios</span> <span class="kn">import</span> <span class="n">pinout</span> <span class="k">as</span> <span class="n">pins</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">Alternative: SparkFun Pro Micro RP2040</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span> <span class="nn">kmk.quickpin.pro_micro.sparkfun_promicro_rp2040</span> <span class="kn">import</span> <span class="n">pinout</span> <span class="k">as</span> <span class="n">pins</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">Alternative: Adafruit KB2040</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span> <span class="nn">kmk.quickpin.pro_micro.kb2040</span> <span class="kn">import</span> <span class="n">pinout</span> <span class="k">as</span> <span class="n">pins</span>
+</code></pre></div>
+<p><strong>...</strong></p>
+<hr />
+<h2 id="rgb-setup">RGB Setup</h2>
+<h3 id="add-rgb-library">Add RGB library</h3>
+<p>In order to use RGB make sure you copied the <code>'lib'</code> folder onto your splaytoraid in the <a href="#install-splaytoraid-firmware">installation step</a>.<br />
+The <code>'lib'</code> folder should contain the file <code>neopixel.mpy</code>.</p>
+<h3 id="activate-rgb">Activate RGB</h3>
+<p>You have to change the variable <code>splaytoraid_rgb</code> from <code>False</code> to <code>True</code> in your <a href="https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/main.py"><code>main.py</code></a> file and set <code>splaytoraid_keys</code> to the amount of keys you are using:</p>
+<div class="highlight"><span class="filename">main.py</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># ↓ EDIT CONFIG HERE ↓</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">splaytoraid_keys</span> <span class="o">=</span> <span class="mi">40</span>       <span class="c1"># Options: 36, 40</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">splaytoraid_rgb</span> <span class="o">=</span> <span class="kc">False</span>     <span class="c1"># Options: False, True</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># ↑ EDIT CONFIG HERE ↑</span>
+</code></pre></div>
+<h3 id="customize-rgb">Customize RGB</h3>
+<p><em>You can find this code in your <a href="https://github.com/moritz-john/kmk-config-splaytoraid/blob/master/firmware/kb.py"><code>kb.py</code></a> file:</em></p>
+<div class="highlight"><span class="filename">kb.py</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>        <span class="n">rgb</span> <span class="o">=</span> <span class="n">RGB</span><span class="p">(</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>            <span class="n">pixel_pin</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rgb_pixel_pin</span><span class="p">,</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>            <span class="n">num_pixels</span><span class="o">=</span><span class="n">pixels</span><span class="p">,</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>            <span class="n">rgb_order</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>            <span class="n">val_limit</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span> <span class="c1"># Maximum brightness level. Only change if you know what you are doing!</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>            <span class="n">hue_default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>            <span class="n">sat_default</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>            <span class="n">val_default</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>        <span class="p">)</span>
+</code></pre></div>
+<p>Consider changing <code>hue_default</code>, <code>sat_default</code> or <code>val_default</code>. Use values in the range of <code>0-255</code>.<br />
+Read more about the possible configuration options <a href="https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/rgb.md#configuration">HERE</a>.</p>
+<h3 id="control-rgb-via-keycodes">Control RGB via keycodes</h3>
+<p>You <strong>need</strong> to add some <a href="https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/rgb.md#keycodes">keycodes</a> to your keymap in order to control your RGB lighting e.g.:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Keycode</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbtog">KC.RGB_TOG</kbd></span></td>
+<td align="left">Toggles RGB on or off</td>
+</tr>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbhui">KC.RGB_HUI</kbd></span></td>
+<td align="left">Increase Hue</td>
+</tr>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbhud">KC.RGB_HUD</kbd></span></td>
+<td align="left">Decrease Hue</td>
+</tr>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbsai">KC.RGB_SAI</kbd></span></td>
+<td align="left">Increase Saturation</td>
+</tr>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbsad">KC.RGB_SAD</kbd></span></td>
+<td align="left">Decrease Saturation</td>
+</tr>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbvai">KC.RGB_VAI</kbd></span></td>
+<td align="left">Increase Value</td>
+</tr>
+<tr>
+<td align="left"><span class="keys"><kbd class="key-rgbvad">KC.RGB_VAD</kbd></span></td>
+<td align="left">Decrease Value</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="hide-device-storage-optional">Hide Device Storage (optional)</h2>
+<p>Here is how to hide your microcontroller from showing up as a USB storage by default.<br />
+I would recommend following these steps <strong>after</strong> you finished setting up your splaytoraid &amp; keymap:</p>
+<ul>
+<li>Copy this specifig <a href="https://github.com/moritz-john/kmk-config-splaytoraid/tree/master/firmware/utilities/hide_device_storage"><code>boot.py</code></a> onto your <code>'CIRCUITPY'</code> USB storage and replace the existing file.</li>
+<li>You can still access the device USB storage by holding a certain key on startup</li>
+</ul>
+<!-- prettier-ignore-start -->
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>After replacing <code>boot.py</code> you need to hold the green key when connecting the keyboard to your computer in order to access its USB storage.</strong></p>
+</div>
+<!-- prettier-ignore-end -->
+
+<figure>
+<p><img alt="Image title" src="images/hold_key_splaytoraid.svg" width="1000" />
+  </p>
+<figcaption></figcaption>
+</figure>
+<h3 id="microcontroller-support_1">Microcontroller support</h3>
+<p><a href="https://github.com/moritz-john/kmk-config-splaytoraid/tree/master/firmware/utilities/hide_device_storage"><code>boot.py</code></a> is designed to work with the <strong>0xCB Helios</strong> but you can update this line in <code>boot.py</code> to <a href="https://github.com/KMKfw/kmk_firmware/tree/master/kmk/quickpin/pro_micro">any supported microcontroller:</a></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span> <span class="nn">kmk.quickpin.pro_micro.helios</span> <span class="kn">import</span> <span class="n">pinout</span> <span class="k">as</span> <span class="n">pins</span>
+</code></pre></div>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/KMKfw/kmk_firmware">KMK</a> is a feature-rich and beginner-friendly firmware for computer keyboards written and configured in <a href="https://circuitpython.org/">CircuitPython</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>A keyboard designed by <a href="https://linktr.ee/freya_irl">freya</a> and exclusively available through <a href="https://keeb.supply/products/splaytoraid-messenger-edition">keeb.supply</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Created and maintained by Moritz John
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://keeb.supply/products/splaytoraid-messenger-edition" target="_blank" rel="noopener" title="Buy yourself a splaytoraid" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32l51.9 207.5C91 492 116.6 512 146 512h284c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32h-85.6L365.3 12.9c-6.1-11.7-20.6-16.3-32.4-10.2s-16.3 20.6-10.2 32.4L404.3 192H171.7l81.6-156.9zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16v-96c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16v-96c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16v-96c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/moritz-john/" target="_blank" rel="noopener" title="moritz-john Github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["header.autohide"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+    
+  </body>
+</html>

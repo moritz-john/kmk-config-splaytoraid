@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="814.203654296854px"
+   height="337.02856747525584px"
+   viewBox="0 0 814.203654296854 337.02856747525584"
+   version="1.1"
+   id="svg5153"
+   sodipodi:docname="hold_key_splaytoraid.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5155"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.6003367"
+     inkscape:cx="373.35893"
+     inkscape:cy="191.83463"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5149" />
+  <style
+     type="text/css"
+     id="style4877">
+    .keycap .border { stroke: black; stroke-width: 2; }
+    .keycap .inner.border { stroke: rgba(0,0,0,.1); }
+    </style>
+  <defs
+     id="defs4905">
+    <linearGradient
+       id="DCS">
+      <stop
+         offset="0%"
+         stop-color="black"
+         stop-opacity="0"
+         id="stop4879" />
+      <stop
+         offset="40%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop4881" />
+      <stop
+         offset="60%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop4883" />
+      <stop
+         offset="100%"
+         stop-color="black"
+         stop-opacity="0"
+         id="stop4885" />
+    </linearGradient>
+    <linearGradient
+       id="SPACE"
+       x1="0%"
+       x2="0%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop4888" />
+      <stop
+         offset="20%"
+         stop-color="black"
+         stop-opacity="0.0"
+         id="stop4890" />
+      <stop
+         offset="40%"
+         stop-color="black"
+         stop-opacity="0.0"
+         id="stop4892" />
+      <stop
+         offset="100%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop4894" />
+    </linearGradient>
+    <radialGradient
+       id="DSA">
+      <stop
+         offset="0%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop4897" />
+      <stop
+         offset="10%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop4899" />
+      <stop
+         offset="100%"
+         stop-color="black"
+         stop-opacity="0"
+         id="stop4901" />
+    </radialGradient>
+    <radialGradient
+       id="SA"
+       xlink:href="#DSA" />
+  </defs>
+  <g
+     transform="translate(10,10)"
+     id="g5151">
+    <g
+       transform="translate(5,5)"
+       id="g5149">
+      <g
+         class="ghosted  keycap"
+         transform="rotate(7 245.7 0)"
+         id="g4913"
+         style="fill:#08a40d;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="84.69999999999999"
+           y="44.2"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4909"
+           style="fill:#08a40d;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(7 245.7 0)"
+         id="g4919"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="30.700001"
+           y="71.199997"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4915"
+           style="display:inline;fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(7 245.7 0)"
+         id="g4925"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="84.69999999999999"
+           y="98.2"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4921"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(7 245.7 0)"
+         id="g4931"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="30.69999999999999"
+           y="125.19999999999999"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4927"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(7 245.7 0)"
+         id="g4937"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="84.69999999999999"
+           y="152.2"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4933"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(11 245.7 0)"
+         id="g4943"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="152.2"
+           y="14.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4939"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(11 245.7 0)"
+         id="g4949"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="152.2"
+           y="68.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4945"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(11 245.7 0)"
+         id="g4955"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="152.2"
+           y="122.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4951"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4961"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="217"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4957"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4967"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="271"
+           y="14.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4963"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4973"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="325"
+           y="28"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4969"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4979"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="217"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4975"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4985"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="271"
+           y="68.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4981"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4991"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="325"
+           y="82"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4987"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g4997"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="217"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4993"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g5003"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="271"
+           y="122.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect4999"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(15 245.7 0)"
+         id="g5009"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="325"
+           y="136"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5005"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(18 245.7 0)"
+         id="g5015"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="265.6"
+           y="184.6"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5011"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(27 245.7 0)"
+         id="g5021"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="354.7"
+           y="171.1"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5017"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(35 245.7 0)"
+         id="g5027"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="438.4"
+           y="119.80000000000001"
+           width="52"
+           height="79"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5023"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-35 556.2 0)"
+         id="g5033"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="303.4"
+           y="117.1"
+           width="52"
+           height="79"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5029"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-27 556.2 0)"
+         id="g5039"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="387.1"
+           y="168.4"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5035"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-18 556.2 0)"
+         id="g5045"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="476.20000000000005"
+           y="184.6"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5041"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5051"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="524.8"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5047"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5057"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="470.79999999999995"
+           y="14.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5053"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5063"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="416.8"
+           y="28"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5059"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5069"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="524.8"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5065"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5075"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="470.79999999999995"
+           y="68.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5071"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5081"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="416.8"
+           y="82"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5077"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5087"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="524.8"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5083"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5093"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="470.79999999999995"
+           y="122.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5089"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-15 556.2 0)"
+         id="g5099"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="416.8"
+           y="136"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5095"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-12 556.2 0)"
+         id="g5105"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="586.9"
+           y="14.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5101"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-12 556.2 0)"
+         id="g5111"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="586.9"
+           y="68.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5107"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-12 556.2 0)"
+         id="g5117"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="586.9"
+           y="122.5"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5113"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-8 556.2 0)"
+         id="g5123"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="654.4"
+           y="44.19999999999999"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5119"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-8 556.2 0)"
+         id="g5129"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="708.4"
+           y="71.2"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5125"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-8 556.2 0)"
+         id="g5135"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="654.4"
+           y="98.2"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5131"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-8 556.2 0)"
+         id="g5141"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="708.4"
+           y="125.19999999999999"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5137"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+      <g
+         class="ghosted  keycap"
+         transform="rotate(-8 556.2 0)"
+         id="g5147"
+         style="fill:#21222c;fill-opacity:1;stroke:none">
+        <!-- Outer Border -->
+        <rect
+           x="654.4"
+           y="152.2"
+           width="52"
+           height="52"
+           rx="5"
+           fill="#cccccc"
+           class="outer border"
+           id="rect5143"
+           style="fill:#21222c;fill-opacity:1;stroke:none" />
+        <!-- Outer Fill -->
+      </g>
+    </g>
+  </g>
+</svg>
